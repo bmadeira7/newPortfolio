@@ -11,32 +11,26 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
+            <h2>Brian Madeira</h2>
               <img
-                src="https://lh3.googleusercontent.com/XxtG-ODjWPdssJCmaeyH4YsccP7t-fvcUkTvObJOeCQn3x_Xl0cifM9yEsqBeYg8WfSwHuCHfZ9xFWM12iL8Q4KAHeocChcS7jxm2YBjs2rkjgpWwe5apijJHFlqqukqtw2zUIv4SlvbayeZ-xhBSieTCjHYPoJtGvaabQpLaRwvaU1qF5qCkLc-oPJWoJgv4no-Dtu7zXEKRHpidmfU2_ZI36XKOHsEcyeu069zuvRl0BYXGyJGgrBEomePXCkw6Ds7s25wQYUyF5iZJHeWM3UL1DEy6vJgf-t77SORIgIq7X8Xd1-Te_B4GEuN0y583pm_g7Yh2ZxA79SY0c0zMvSau5fCF9pgOBqsGjNaueOhLVvdHr1TB2HYvar-lR8gH_A9kBIr-dreki5SWmI_KQ0gu1r-bkIhjLybkDf1Tf75ZSwZyvY0zJDR_gjw54FMoSEylnSRlpzdlA020Q2j3M6VzXhX_LYWdjOuWLM87eZ3RptA5CXlKcMA_Lm0jrwElEqaZdiWvr_QJn6ILJc8KDOVt5hp13a80XMxvqyBA9Oyr4CUaWWAdL85t9_t561IDYFqq4D9kUFWdYdVDa5DbaGJ69cE0odp_fDRi8_Xvy6XKX0oQfgWUO_JglBkle4bsT6kzNLV1JKtbIZu0EpRF0U8=w719-h767-no"
+                src="https://bmadeira7.github.io/images/brian-wearing-blk-tee.png"
                 alt="avatar"
                 className="avatar-img"
-                style={{ height: "200px" }}
+                style={{ height: "200px", paddingTop: '10px' }}
               />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Brian Madeira</h2>
-            <h4 style={{ color: "grey" }}>Front End Web Developer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <p>
-              Front-End Web Developer with background in Audio Engineering and
-              Full-Stack Certification from the UNC-Charlotte Coding Bootcamp.
-              Enjoys collaborating with other developers and working together to
-              create unique applications. Looking to combine knowledge of audio
-              production with coding skill set to implement new and exciting
-              ideas and solutions within the entertainment industry.
-            </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h5>Address</h5>
+            
+            <h4 style={{ color: "grey", textAlign: "center", paddingTop: '10px', paddingBottom: '10px' }}>Front End Web Developer</h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100"}} />
+            
+            <h5>Location</h5>
             <p>Fort Mill, South Carolina</p>
             <h5>Phone</h5>
             <p>407-575-9350</p>
             <h5>Email</h5>
             <a href="mailto: bmadeira7@gmail.com">bmadeira7@gmail.com</a>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <br></br>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%"}} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -96,7 +90,7 @@ class Resume extends Component {
             <h2>Skills</h2>
                 <Skills 
                 skill='HTML/CSS'
-                progress={100}
+                progress={90}
                 />
                 <Skills 
                 skill='Bootstrap'
