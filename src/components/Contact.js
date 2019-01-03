@@ -16,7 +16,7 @@ class Contact extends Component {
               Full-Stack Certification from the UNC-Charlotte Coding Bootcamp.
               Enjoys collaborating with other developers and working together to
               create unique applications. Looking to combine knowledge of audio
-              production with coding skill set to implement new and exciting
+              production with coding skill set to implement new exciting
               ideas and solutions within the entertainment industry.
             </p>
           </Cell>

@@ -32,15 +32,15 @@ class Projects extends Component {
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover"
               }}
             >
-              React Project #1
+              Fala Mobile Messaging App
             </CardTitle>
             <CardText>
-              Lorem ipums shf sfshf sfs afsd g fgd d dfh dh dfh gf jf jfg jfh j
+              A responsive messaging service built with JSX in React and using Bootstrap and Pusher Chatkit
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Heroku</Button>
-              <Button colored>Live-Demo</Button>
+              <Button colored><a href="https://github.com/bmadeira7/falaChat" rel="noopener noreferrer" target="_blank">Github</a></Button>
+              <Button colored style={{float: 'right'}}><a href="https://shrouded-island-48843.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              
             </CardActions>
             <CardMenu style={{ color: "fff" }}>
               <IconButton name="share" />

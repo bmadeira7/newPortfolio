@@ -51,7 +51,7 @@ class Resume extends Component {
               endYear={"12/2018"}
               schoolName={"Free Code Camp.org"}
               schoolDescription={
-                "An amazing and free online school that teaches many different coding languages and offers certificates upon completion of course work"
+                "A free online school founded by Quincy Larson that makes learning web development accessible to everyone"
               }
             />
 
@@ -60,7 +60,7 @@ class Resume extends Component {
               endYear={"11/2005"}
               schoolName={"Full Sail University"}
               schoolDescription={
-                "A well known arts school where I was taught Audio Engineering"
+                "A school designed for the world of entertainment and media where I received an Associates in Audio Engineering"
               }
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
