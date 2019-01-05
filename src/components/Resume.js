@@ -13,7 +13,7 @@ class Resume extends Component {
             <div style={{ textAlign: "center" }}>
             <h2>Brian Madeira</h2>
               <img
-                src="https://bmadeira7.github.io/images/brian-wearing-blk-tee.png"
+                src="/brian-wearing-blk-tee.png"
                 alt="avatar"
                 className="avatar-img"
                 style={{ height: "200px", paddingTop: '10px' }}
