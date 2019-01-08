@@ -16,31 +16,31 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}}
-        to="/">Brian Madeira</Link>} scroll>
+        to="/portfolio/">Brian Madeira</Link>} scroll>
             <Navigation>
-              <Link to="/">
+              <Link to="/portfolio/">
                 <i className="fas fa-home homeIcon" />
               </Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/resume">Resume</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/portfolio/aboutme">About Me</Link>
+              <Link to="/portfolio/resume">Resume</Link>
+              <Link to="/portfolio/projects">Projects</Link>
+              <Link to="/portfolio/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer title={<Link onClick={close} style={{textDecoration: 'none', color: 'black'}}
-        to="/">Brian Madeira</Link>}>
+        to="/portfolio/">Brian Madeira</Link>}>
             <Navigation>
               
-              <Link to="/aboutme" onClick={close}>
+              <Link to="/portfolio/aboutme" onClick={close}>
                 About Me
               </Link>
-              <Link to="/resume" onClick={close}>
+              <Link to="/portfolio/resume" onClick={close}>
                 Resume
               </Link>
-              <Link to="/projects" onClick={close}>
+              <Link to="/portfolio/projects" onClick={close}>
                 Projects
               </Link>
-              <Link to="/contact" onClick={close}>
+              <Link to="/portfolio/contact" onClick={close}>
                 Contact
               </Link>
             </Navigation>

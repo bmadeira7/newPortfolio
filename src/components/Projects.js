@@ -10,7 +10,7 @@ import {
   CardText,
   Button,
   CardMenu,
-  IconButton
+  // IconButton
 } from "react-mdl";
 class Projects extends Component {
   constructor(props) {
@@ -43,7 +43,7 @@ class Projects extends Component {
               
             </CardActions>
             <CardMenu style={{ color: "fff" }}>
-              <IconButton name="share" />
+              
             </CardMenu>
           </Card>
 
@@ -57,45 +57,22 @@ class Projects extends Component {
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover"
               }}
             >
-              React Project #2
+              UK Garage Click Game
             </CardTitle>
             <CardText>
-              Lorem ipums shf sfshf sfs afsd g fgd d dfh dh dfh gf jf jfg jfh j
+              A game built with React with a dance music theme
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Heroku</Button>
-              <Button colored>Live-Demo</Button>
+              <Button colored><a href="https://github.com/bmadeira7/clickGame" rel="noopener noreferrer" target="_blank">Github</a></Button>
+              <Button colored style={{float: 'right'}}><a href="https://bmadeira7.github.io/clickGame/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              
             </CardActions>
             <CardMenu style={{ color: "fff" }}>
-              <IconButton name="share" />
+              
             </CardMenu>
           </Card>
 
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "black",
-                height: "176px",
-                background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover"
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipums shf sfshf sfs afsd g fgd d dfh dh dfh gf jf jfg jfh j
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Heroku</Button>
-              <Button colored>Live-Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
+         
         </div>
       );
     } 
@@ -113,18 +90,18 @@ class Projects extends Component {
                 "url(https://static.frontendmasters.com/assets/courses/2012-02-12-introduction-to-javascript-jquery/thumb.jpg) center / cover"
             }}
           >
-            Javascript/jQuery project #1
+            Friend Finder App
           </CardTitle>
           <CardText>
-            Lorem ipums shf sfshf sfs afsd g fgd d dfh dh dfh gf jf jfg jfh j
+          An application that will recommend you a new friend based on quiz results
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Heroku</Button>
-            <Button colored>Live-Demo</Button>
+          <Button colored><a href="https://github.com/bmadeira7/friendFinder" rel="noopener noreferrer" target="_blank">Github</a></Button>
+              <Button colored style={{float: 'right'}}><a href="https://bmadeira7-friend-finder.herokuapp.com" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
 
@@ -138,18 +115,18 @@ class Projects extends Component {
                 "url(https://static.frontendmasters.com/assets/courses/2012-02-12-introduction-to-javascript-jquery/thumb.jpg) center / cover"
             }}
           >
-            Javascript/jQuery project #2
+            Train Scheduler App
           </CardTitle>
           <CardText>
-            Lorem ipums shf sfshf sfs afsd g fgd d dfh dh dfh gf jf jfg jfh j
+          An mock application allow the transportation management to schedule train routes
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Heroku</Button>
-            <Button colored>Live-Demo</Button>
+          <Button colored><a href="https://github.com/bmadeira7/Train-Scheduler" rel="noopener noreferrer" target="_blank">Github</a></Button>
+              <Button colored style={{float: 'right'}}><a href="https://bmadeira7.github.io/Train-Scheduler/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
 
@@ -163,18 +140,18 @@ class Projects extends Component {
                 "url(https://static.frontendmasters.com/assets/courses/2012-02-12-introduction-to-javascript-jquery/thumb.jpg) center / cover"
             }}
           >
-            Javascript/jQuery project #3
+            Javascript Hangman Game
           </CardTitle>
           <CardText>
-            Lorem ipums shf sfshf sfs afsd g fgd d dfh dh dfh gf jf jfg jfh j
+          A hangman guessing game built with Javascript with a Vietnam War theme
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Heroku</Button>
-            <Button colored>Live-Demo</Button>
+          <Button colored><a href="https://github.com/bmadeira7/js-review" rel="noopener noreferrer" target="_blank">Github</a></Button>
+              <Button colored style={{float: 'right'}}><a href="https://bmadeira7.github.io/js-review/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
       </div>
@@ -203,7 +180,7 @@ class Projects extends Component {
             <Button colored>Live-Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
 
@@ -228,7 +205,7 @@ class Projects extends Component {
             <Button colored>Live-Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
 
@@ -253,7 +230,7 @@ class Projects extends Component {
             <Button colored>Live-Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
       </div>
@@ -282,7 +259,7 @@ class Projects extends Component {
             <Button colored>Live-Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
 
@@ -307,7 +284,7 @@ class Projects extends Component {
             <Button colored>Live-Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
 
@@ -332,7 +309,7 @@ class Projects extends Component {
             <Button colored>Live-Demo</Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
-            <IconButton name="share" />
+            
           </CardMenu>
         </Card>
       </div>
