@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
-
+import HeadShot from '../images/brian.png'
 class Resume extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
             <h2>Brian Madeira</h2>
-            <img src="/brian.PNG" alt="avatar" className="avatar-landing" 
+            <img src={HeadShot} alt="avatar" className="avatar-landing" 
                 style={{ height: "200px", paddingTop: '10px' }}
               />
             </div>
