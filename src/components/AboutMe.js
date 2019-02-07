@@ -18,8 +18,7 @@ class About extends Component {
             I have always found satisfaction in creating things. It began with
             writing songs and practicing with my band as a teenager to taking a
             more digital approach to audio production after graduating from Full
-            Sail. Currently, I enjoy creating web applications and solving
-            technical problems with Javascript. The UNC Coding Bootcamp taught
+            Sail. Currently, I enjoy creating web applications with ReactJS. The UNC Coding Bootcamp taught
             me a multitude of web development technologies, and I continue to
             seek out and learn new technologies constantly.
           </p>
