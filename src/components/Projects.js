@@ -202,7 +202,7 @@ class Projects extends Component {
           </CardText>
           <CardActions border>
           <Button colored><a href="https://github.com/bmadeira7/Project-2" rel="noopener noreferrer" target="_blank">Github</a></Button>
-              <Button colored style={{float: 'right'}}><a href="http://bloodcurdling-vampire-87131.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+              <Button colored style={{float: 'right'}}><a href="http://bloodcurdling-vampire-87131.herokuapp.com/main" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
           </CardActions>
           <CardMenu style={{ color: "fff" }}>
             
