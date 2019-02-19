@@ -39,7 +39,7 @@ class Resume extends Component {
                 "Full Stack Web Development Coding Bootcamp UNC Charlotte - Charlotte, NC"
               }
               schoolDescription={
-                "A intense full time coding bootcamp teaching everything from basic HTML to building full stack applications"
+                "An intense full time coding bootcamp teaching everything from basic HTML to building full stack applications"
               }
             />
 
@@ -48,7 +48,7 @@ class Resume extends Component {
               endYear={"12/2018"}
               schoolName={"Free Code Camp.org"}
               schoolDescription={
-                "A free online school founded by Quincy Larson that makes learning web development accessible to everyone"
+                "A free online coding school founded by Quincy Larson"
               }
             />
 

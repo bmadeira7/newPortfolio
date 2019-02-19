@@ -4,6 +4,7 @@ class About extends Component {
   render() {
     return (
       <Card
+      className="resume-right-col"
         shadow={5}
         style={{ minWidth: "950px", margin: "auto", marginTop: "3%" }}
       >
